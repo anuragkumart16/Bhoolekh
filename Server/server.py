@@ -29,6 +29,7 @@ def predict_home_price():
 
 @app.route('/health_check', methods=['GET'])
 def healthcheck():
+    utils.load_saved_artifacts()
     response = jsonify({
         'success': True,
         'message': 'Server is healthy!'
