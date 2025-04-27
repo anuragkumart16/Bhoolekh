@@ -52,7 +52,7 @@ function Predict() {
             <h1 style={{ color: "black", fontSize: "40px", textAlign: "center", marginBottom: "2rem" }}>
                 Predict Home Prices
             </h1>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem", padding: "2rem", boxShadow: "rgba(0, 0, 0, 0.24) 0px 1px 5px", borderRadius: "10px", minWidth: "30vw" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "1rem", padding: "1rem", boxShadow: "rgba(0, 0, 0, 0.24) 0px 1px 5px", borderRadius: "10px", minWidth: "30vw" }}>
                 {message &&<div>
                     <p style={{ fontSize: "1rem", marginBottom: "0.5rem",color:"red" }}>{message}</p>
                 </div>}
